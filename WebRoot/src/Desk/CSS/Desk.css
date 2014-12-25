@@ -1,0 +1,121 @@
+body { 
+padding: 0; 
+margin: 0; 
+background: #f8f7e5 url("../images/background.jpg")  ; 
+width: 100%;
+height:100%;
+display: table;
+overflow:hidden;
+}
+
+.windowbody{
+width: 100%;
+height:100%;
+overflow:hidden;
+}
+
+.icon{
+	width: 50px;
+	height: 50px;
+}
+
+.icondiv{
+	width:50px;
+	height:70px;
+}
+
+.text{
+	width:1122px;
+	height:100px;
+	background: #f8f7e5;
+}
+
+.windowbar{
+	position:relative;
+	width:680px;
+	height:560px;
+	background: #CCFF66;
+}
+
+.windowtitle{
+	position:absolute;
+	top:0px;
+    width:680px;
+	height:20px;
+	background: #FF9999;
+}
+
+.windowopera{
+	position:absolute;
+	width:680px;
+	height:40px;
+	background: #CCFF66;
+}
+
+.adressbar{
+	position:absolute;
+	width:680px;
+	height:20px;
+	top:60px;
+	background: #CCFF66;
+}
+
+.windowbuttonbar{
+	position:absolute;
+	left:500px;
+    width:60px;
+	height:20px;
+	background: #CCFF66;
+}
+
+.windowbuttonicon{
+
+}
+
+.windownav{
+	position:absolute;
+	width:130px;
+	height:540px;
+	background: #ff0000;
+	left:0px;
+	top:20px;
+}
+
+.windowfilebar{
+	position:absolute;
+	width:550px;
+	height:480px;
+	left:130px;
+	top:60px;
+	background: #CCFF66;
+	
+}
+
+.brick.fileicondiv
+{
+	width : 40px;
+	height : 70px;
+
+}
+
+.brick.small
+  {
+    width: 60px;
+    height: 60px;
+  }
+.brick.large
+  {
+    width: 120px;
+    height: 120px;
+  }
+
+.fileiconpic{
+	width:40px;
+	height:40px;
+}
+
+.fileicontext{
+	width:40px;
+	height:30px;
+	font-size: 10px
+}

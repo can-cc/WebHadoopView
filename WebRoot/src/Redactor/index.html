@@ -1,0 +1,53 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>	
+	<title>jquery插件站整理-www.sd131.com-Fixed toolbar</title>
+
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="css/kube.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/screen.css" />
+	<link rel="stylesheet" type="text/css" href="css/redactor.css" /> 
+	
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->	
+
+	<script src="js/jquery-1.8.2.min.js"></script>	
+	<script src="js/global.js"></script>	
+	<script src="js/redactor.js"></script>
+	<script src="js/prettify.js"></script>	
+	<script src="js/zh_cn.js"></script>	
+		<script type="text/javascript">
+		    $(function () {
+		        $('#redactor_content').redactor({
+		            fixed: true,
+		            lang: "zh_cn",
+		            wym: true,
+		            //air: true
+		        });
+		    });
+</script>
+</head>
+<body >
+
+<div id="box-inside-white">
+	<div class="wrapper">
+		<div id="main" class="row" style="height:1000px">
+			<article class="threequarter">
+				<h2>Fixed toolbar <a href="http://www.sd131.com">帮助</a></h2>
+				
+<textarea id="redactor_content" name="content" style="height: 580px;">
+<p>这是内容</p><p>这是内容</p><p>这是内容</p><p>这是内容</p>
+</textarea>	
+
+	
+
+			</article>	
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

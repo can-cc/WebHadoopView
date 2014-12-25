@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpLoadServer</servlet-name>
+    <servlet-class>massage.UpLoadServer</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FileUploadServlet</servlet-name>
+    <servlet-class>massage.FileUploadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MSG</servlet-name>
+    <servlet-class>massage.MSG</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadtoHdfs</servlet-name>
+    <servlet-class>massage.UploadtoHdfs</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Getfilecontent</servlet-name>
+    <servlet-class>massage.Getfilecontent</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpLoadServer</servlet-name>
+    <url-pattern>/servlet/UpLoadServer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FileUploadServlet</servlet-name>
+    <url-pattern>/servlet/FileUploadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MSG</servlet-name>
+    <url-pattern>/servlet/MSG</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadtoHdfs</servlet-name>
+    <url-pattern>/servlet/UploadtoHdfs</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Getfilecontent</servlet-name>
+    <url-pattern>/servlet/Getfilecontent</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>GetHdfsWindow</display-name>
+    <servlet-name>GetHdfsWindow</servlet-name>
+    <servlet-class>massage.GetHdfsWindow</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetHdfsWindow</servlet-name>
+    <url-pattern>/GetHdfsWindow</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>FileOperate</display-name>
+    <servlet-name>FileOperate</servlet-name>
+    <servlet-class>massage.FileOperate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FileOperate</servlet-name>
+    <url-pattern>/servlet/FileOperate</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>GetHbaseContent</display-name>
+    <servlet-name>GetHbaseContent</servlet-name>
+    <servlet-class>massage.GetHbaseContent</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetHbaseContent</servlet-name>
+    <url-pattern>/GetHbaseContent</url-pattern>
+  </servlet-mapping>
+</web-app>
